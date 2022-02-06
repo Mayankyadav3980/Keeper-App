@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -13,7 +14,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Keeper-app" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>
