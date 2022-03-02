@@ -29,7 +29,7 @@ const SignUp = () => {
               <br />
               <input type="password" />
             </div>
-            <Link to="/">
+            <Link to="/keeper-App">
               <input type="submit" value="Sign Up" className="signupBtn" />
             </Link>
           </form>

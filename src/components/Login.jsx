@@ -30,7 +30,7 @@ const Login = () => {
               <input type="password" />
             </div>
             <div>
-              <Link to="/">
+              <Link to="/keeper-App">
                 <input type="submit" value="Log In" className="signupBtn" />
               </Link>
             </div>

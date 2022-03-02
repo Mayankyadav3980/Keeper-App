@@ -9,9 +9,9 @@ function Header() {
      
       <h1> <HighlightIcon /> Keeper</h1>
       
-     { islogin ?  (<Link to="/"> <h4 onClick={() => {setislogin(false)}}>Logout</h4> </Link>) : (<Link to="/login" > <h4 onClick={() => {setislogin(true)}}>Login</h4> </Link>) }
+     { islogin ?  (<Link to="/Keeper-App"> <h4 onClick={() => {setislogin(false)}}>Logout</h4> </Link>) : (<Link to="/login" > <h4 onClick={() => {setislogin(true)}}>Login</h4> </Link>) }
      <Link to="/signup"><h4 > Sign up</h4> </Link>
-     <Link to="/"><h4 > Home </h4> </Link>
+     <Link to="/Keeper-App"><h4 > Home </h4> </Link>
       
     </header>
   );
